@@ -15,8 +15,8 @@ public class SolutionTest {
     @RunWith(Parameterized.class)
     public static class SolutionExample {
 
-        int[] inputArrays;
-        int expectation;
+        final int[] inputArrays;
+        final int expectation;
 
         public SolutionExample(int[] inputArrays, int expectation) {
             this.inputArrays = inputArrays;
@@ -40,8 +40,8 @@ public class SolutionTest {
     @RunWith(Parameterized.class)
     public static class SolutionBinaryGap {
 
-        int input;
-        int expectation;
+        final int input;
+        final int expectation;
 
         public SolutionBinaryGap(int input, int expectation) {
             this.input = input;
@@ -70,8 +70,8 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionTwoArrayManipulation {
-        int[] input;
-        int expectation;
+        final int[] input;
+        final int expectation;
 
         public SolutionTwoArrayManipulation(int[] input, int expectation) {
             this.input = input;
@@ -98,10 +98,10 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionTwoArrayShift {
-        String name;
-        int[] input;
-        int shiftInput;
-        int[] expectation;
+        final String name;
+        final int[] input;
+        final int shiftInput;
+        final int[] expectation;
 
         public SolutionTwoArrayShift(String name, int[] input, int shiftInput, int[] expectation) {
             this.name = name;
@@ -131,10 +131,10 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionTimeComplexityFrogJump {
-        int inputX;
-        int inputY;
-        int jumpD;
-        int expectation;
+        final int inputX;
+        final int inputY;
+        final int jumpD;
+        final int expectation;
 
         public SolutionTimeComplexityFrogJump(int inputX, int inputY, int jumpD, int expectation) {
             this.inputX = inputX;
@@ -162,8 +162,8 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionTimeComplexityPermMissingElm {
-        int[] arrayA;
-        int expectation;
+        final int[] arrayA;
+        final int expectation;
 
         public SolutionTimeComplexityPermMissingElm(int[] arrayA, int expectation) {
             this.arrayA = arrayA;
@@ -187,8 +187,8 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionTimeComplexityTapeEquilibrium {
-        int[] arrayA;
-        int expectation;
+        final int[] arrayA;
+        final int expectation;
 
         public SolutionTimeComplexityTapeEquilibrium(int[] arrayA, int expectation) {
             this.arrayA = arrayA;
@@ -214,8 +214,8 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionCountingElementsPermCheck {
-        int[] arrayA;
-        int expectation;
+        final int[] arrayA;
+        final int expectation;
 
         public SolutionCountingElementsPermCheck(int[] arrayA, int expectation) {
             this.arrayA = arrayA;
@@ -244,8 +244,8 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionCountingElementsMissingInteger {
-        int[] arrayA;
-        int expectation;
+        final int[] arrayA;
+        final int expectation;
 
         public SolutionCountingElementsMissingInteger(int[] arrayA, int expectation) {
             this.arrayA = arrayA;
@@ -276,9 +276,9 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionCountingElementsFrogRiverOne {
-        int inputX;
-        int[] arrayA;
-        int expectation;
+        final int inputX;
+        final int[] arrayA;
+        final int expectation;
 
         public SolutionCountingElementsFrogRiverOne(int inputX, int[] arrayA, int expectation) {
             this.inputX = inputX;
@@ -307,9 +307,9 @@ public class SolutionTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionCountingElementsMaxCounters {
-        int inputX;
-        int[] arrayA;
-        int[] expectation;
+        final int inputX;
+        final int[] arrayA;
+        final int[] expectation;
 
         public SolutionCountingElementsMaxCounters(int inputX, int[] arrayA, int[] expectation) {
             this.inputX = inputX;

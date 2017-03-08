@@ -14,8 +14,8 @@ public class ExerciseHorizonTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionExerciseOneWordCount {
-        String inputX;
-        int expectation;
+        final String inputX;
+        final int expectation;
 
         public SolutionExerciseOneWordCount(String inputX, int expectation) {
             this.inputX = inputX;
@@ -44,8 +44,8 @@ public class ExerciseHorizonTest {
 
     @RunWith(Parameterized.class)
     public static class SolutionExerciseTwoSort {
-        int[] A;
-        boolean expectation;
+        final int[] A;
+        final boolean expectation;
 
         public SolutionExerciseTwoSort(int[] A, boolean expectation) {
             this.A = A;

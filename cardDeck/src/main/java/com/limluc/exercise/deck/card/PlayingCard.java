@@ -24,8 +24,7 @@ public class PlayingCard implements Card {
 
         PlayingCard that = (PlayingCard) o;
 
-        if (pip != that.pip) return false;
-        return suit == that.suit;
+        return pip == that.pip && suit == that.suit;
     }
 
     @Override

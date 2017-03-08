@@ -1,19 +1,16 @@
 package com.limluc.exercise.hackerank;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Scanner;
-import java.util.Set;
 
 public class CountingWay {
     static long sum = 0;
 
     private static List<Integer> toArrayList(int[] intArray) {
-        List<Integer> intList = new ArrayList<Integer>(intArray.length);
-        for (int i = 0; i < intArray.length; i++) {
-            intList.add(intArray[i]);
+        List<Integer> intList = new ArrayList<>(intArray.length);
+        for (int anIntArray : intArray) {
+            intList.add(anIntArray);
         }
         return intList;
     }

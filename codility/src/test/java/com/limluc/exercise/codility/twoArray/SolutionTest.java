@@ -1,6 +1,5 @@
 package com.limluc.exercise.codility.twoArray;
 
-import com.concisebox.limluc.codibility.*;
 import org.junit.Assert;
 import org.junit.Test;
 
