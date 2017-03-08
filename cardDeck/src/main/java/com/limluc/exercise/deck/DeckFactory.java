@@ -17,7 +17,7 @@ public class DeckFactory {
         } else {
             Class aClass = deckTypes.get(deckType);
             if (aClass == null) {
-                throw new NoSuchElementException(String.format("Please provide deckType [%s]", deckTypes.keySet()));
+                throw new NoSuchElementException(String.format("Please provide valid deckType [%s]", deckTypes.keySet()));
             }
             return (Deck) aClass.newInstance();
 

@@ -24,6 +24,7 @@ public abstract class CardDeck implements Deck {
     }
 
     public Card peak(int i){
+        //What happened if users entered high value?
         return cardList.get(i);
     }
 
