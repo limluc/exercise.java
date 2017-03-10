@@ -8,6 +8,7 @@ import static org.junit.Assert.*;
 
 public class DeckFactoryTest {
 
+    @SuppressWarnings("ConstantConditions")
     @Test(expected = IllegalArgumentException.class)
     public void shouldThrowExceptionWhenNull() throws Exception {
         DeckFactory.getDeck(null);

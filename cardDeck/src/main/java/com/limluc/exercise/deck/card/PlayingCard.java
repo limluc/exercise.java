@@ -9,14 +9,6 @@ public class PlayingCard implements Card {
         this.suit = suit;
     }
 
-    public Pip getPip() {
-        return pip;
-    }
-
-    public Suit getSuit() {
-        return suit;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
