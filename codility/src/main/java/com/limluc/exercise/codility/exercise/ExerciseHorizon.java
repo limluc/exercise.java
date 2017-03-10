@@ -1,4 +1,4 @@
-package com.limluc.exercise.codility;
+package com.limluc.exercise.codility.exercise;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
@@ -9,12 +9,6 @@ class ExerciseHorizon {
 
     int defaultSolution(int[] A) {
         return -1;
-    }
-
-    int exerciseOne(String S) {
-        return Stream.of(S.split(REGEX))
-                .mapToInt(this::countWords)
-                .max().orElse(0);
     }
 
     private int countWords(String sentence) {
@@ -35,5 +29,11 @@ class ExerciseHorizon {
             }
         }
         return countDiff >= 0;
+    }
+
+    int exerciseOne(String S) {
+        return Stream.of(S.split(REGEX))
+                .mapToInt(this::countWords)
+                .max().orElse(0);
     }
 }

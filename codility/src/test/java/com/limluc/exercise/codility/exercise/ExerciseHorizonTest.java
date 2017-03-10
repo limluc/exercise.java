@@ -1,4 +1,4 @@
-package com.limluc.exercise.codility;
+package com.limluc.exercise.codility.exercise;
 
 import org.junit.Assert;
 import org.junit.Test;
