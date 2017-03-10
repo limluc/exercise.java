@@ -1,4 +1,4 @@
-package com.limluc.exercise.hackerank;
+package com.limluc.exercise.hackerank.practice.lost;
 
 import java.util.ArrayList;
 import java.util.List;

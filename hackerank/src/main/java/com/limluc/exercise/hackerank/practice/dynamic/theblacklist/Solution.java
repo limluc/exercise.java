@@ -1,4 +1,4 @@
-package com.limluc.exercise.hackerank;
+package com.limluc.exercise.hackerank.practice.dynamic.theblacklist;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -6,7 +6,14 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * The Blacklist
+ * https://www.hackerrank.com/challenges/the-blacklist
+ * INCOMPLETE
+ */
+
 public class Solution {
+
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner in = new Scanner(System.in);

@@ -1,11 +1,16 @@
-package com.limluc.exercise.hackerank;
+package com.limluc.exercise.hackerank.contest.w21.lazysorting;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 
-public class DayOne {
+/**
+ * https://www.hackerrank.com/contests/w21/challenges/lazy-sorting
+ * INCOMPLETE
+ **/
+
+public class Solution {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

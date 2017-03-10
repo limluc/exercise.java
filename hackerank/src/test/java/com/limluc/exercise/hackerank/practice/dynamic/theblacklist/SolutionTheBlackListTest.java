@@ -1,5 +1,6 @@
-package com.limluc.exercise.hackerank;
+package com.limluc.exercise.hackerank.practice.dynamic.theblacklist;
 
+import com.limluc.exercise.hackerank.practice.dynamic.theblacklist.Solution;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -9,8 +10,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-public class SolutionTest {
-
+public class SolutionTheBlackListTest {
 
     @Test
     public void generateAllCombination() throws Exception {
